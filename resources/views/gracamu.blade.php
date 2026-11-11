@@ -41,13 +41,13 @@
                     </h1>
 
                     <!-- Subtítulo / Lema Oficial -->
-                    <p class="font-serif-title italic text-xl sm:text-2xl text-[#eef7f2] leading-relaxed">
+                    <p class="font-serif-title italic text-xl sm:text-2xl text-[#eef7f2] leading-relaxed text-justify">
                         "Frente a los pesticidas y la contaminación del agua en Amazonas, transformamos el daño en valor."
                     </p>
 
                     <!-- Párrafo descriptivo -->
-                    <p class="text-sm sm:text-base text-[#b2c7bc] leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                        Tecnología limpia para aprovechar <strong class="text-white font-semibold">Grano</strong>, <strong class="text-white font-semibold">Cáscara</strong> y <strong class="text-white font-semibold">Mucílago</strong> en una bioeconomía circular de exportación. Despulpado ecológico fraccionado, 100% en seco y con energía solar directamente en parcela.
+                    <p class="text-sm sm:text-base text-[#b2c7bc] leading-relaxed max-w-2xl mx-auto lg:mx-0 text-justify">
+                        Tecnología limpia para aprovechar <strong class="text-white font-semibold">Grano</strong>, <strong class="text-white font-semibold">Cáscara</strong> y <strong class="text-white font-semibold ">Mucílago</strong> en una bioeconomía circular de exportación. Despulpado ecológico fraccionado, 100% en seco y con energía solar directamente en parcela.
                     </p>
 
                     <!-- CTAs Acciones -->
@@ -154,18 +154,18 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12">
                 <!-- Infografía de Cifras del Ecosistema Cafetalero (image5.png) -->
-                <div class="lg:col-span-5 bg-[#142d20] p-5 rounded-3xl border border-[#295a42]/60 text-center space-y-4 shadow-xl">
+                <div class="lg:col-span-4 bg-[#142d20] p-5 rounded-3xl border border-[#295a42]/60 text-center space-y-4 shadow-xl">
                     <img src="{{ asset('images/extracted_pptx/image5.png') }}" alt="Radiografía y Cifras del Ecosistema Cafetalero en Amazonas" class="w-full max-h-96 object-contain rounded-xl mx-auto">
                     <div class="text-left space-y-1 border-t border-[#295a42]/60 pt-3">
                         <span class="text-xs font-bold text-[#d4a737] uppercase tracking-wider block">Zona de Intervención:</span>
                         <p class="text-xs text-[#9ab0a4]">
-                            Cuencas de <strong class="text-white">Utcubamba, Rodríguez de Mendoza, Bagua, Bongará y Luya</strong>.
+                            Cuencas de <strong class="text-white justify-center">Utcubamba, Rodríguez de Mendoza, Bagua, Bongará y Luya</strong>.
                         </p>
                     </div>
                 </div>
 
                 <!-- Grid de las 3 Problemáticas -->
-                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                     
                     <!-- Tarjeta 1: Agroquímicos y EUDR -->
                     <div class="bg-gradient-to-b from-[#183626] to-[#12291d] p-6 rounded-2xl border border-[#295a42]/60 hover:border-[#85222f] transition-all space-y-3 relative group shadow-lg">
@@ -175,7 +175,7 @@
                         <h3 class="font-display font-bold text-base text-white group-hover:text-[#d4a737] transition-colors">
                             Normativa EUDR de la UE
                         </h3>
-                        <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                        <p class="text-xs text-[#9ab0a4] leading-relaxed text-justify">
                             Pesticidas sintéticos degradan la microfauna y ponen en peligro exportaciones hacia la Unión Europea bajo estándares de cero químicos.
                         </p>
                     </div>
@@ -188,7 +188,7 @@
                         <h3 class="font-display font-bold text-base text-white group-hover:text-[#d4a737] transition-colors">
                             80% Desperdiciado
                         </h3>
-                        <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                        <p class="text-xs text-[#9ab0a4] leading-relaxed text-justify">
                             Cáscara y mucílago son vertidos a los ríos como "aguas mieles", acidificando y desoxigenando las cuencas amazónicas.
                         </p>
                     </div>
@@ -201,7 +201,7 @@
                         <h3 class="font-display font-bold text-base text-white group-hover:text-[#d4a737] transition-colors">
                             Daño Mecánico
                         </h3>
-                        <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                        <p class="text-xs text-[#9ab0a4] leading-relaxed text-justify">
                             Despulpadoras descalibradas quiebran el grano, sobrefermentan y generan pérdidas de puntaje en taza SCA.
                         </p>
                     </div>
@@ -249,7 +249,7 @@
                 <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
                     Sistema Portátil Autónomo de Despulpado Fraccionado
                 </h2>
-                <p class="text-sm text-[#b2c7bc] leading-relaxed">
+                <p class="text-sm text-[#b2c7bc] leading-relaxed ">
                     Diseñado para trabajar en laderas agrestes de ceja de selva. Despulpa en seco sin agua, separando en origen el grano pergamino, la cáscara pura y el mucílago concentrado.
                 </p>
             </div>
@@ -266,7 +266,7 @@
                         <div class="pt-2">
                             <span class="text-[10px] font-bold uppercase tracking-wider text-[#d4a737] block">Modelo 3D • Render de Alta Definición</span>
                             <h4 class="text-base font-bold text-white">Despulpadora Autónoma en Finca</h4>
-                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1">
+                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1 text-justify">
                                 Chasis portátil ergonómico con tolva de acero inox 304 para procesar en laderas empinadas.
                             </p>
                         </div>
@@ -280,7 +280,7 @@
                         <div class="pt-2">
                             <span class="text-[10px] font-bold uppercase tracking-wider text-[#4ade80] block">Ingeniería y Separación Activa</span>
                             <h4 class="text-base font-bold text-white">Separación Grano, Cáscara y Mucílago</h4>
-                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1">
+                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1 text-justify">
                                 Vista en operación del cilindro micrométrico separando el grano pergamino limpio y el mucílago en frascos.
                             </p>
                         </div>
@@ -294,7 +294,7 @@
                         <div class="pt-2">
                             <span class="text-[10px] font-bold uppercase tracking-wider text-[#e2be5c] block">Fabricación Local • Taller</span>
                             <h4 class="text-base font-bold text-white">Prototipo Físico Funcional</h4>
-                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1">
+                            <p class="text-xs text-[#9ab0a4] leading-relaxed mt-1 text-justify">
                                 Ensamble de bajo costo con chasis de bambú, rotor metálico calibrado y conductos para pruebas de campo.
                             </p>
                         </div>
@@ -310,7 +310,7 @@
                     <span class="text-xs font-bold uppercase tracking-wider text-[#4ade80] block">Validación Operativa en Parcela</span>
                     <h3 class="text-xl font-bold text-white">Ensayos de Despulpado con Energía Solar</h3>
                     <img src="{{ asset('images/extracted_pptx/image10.png') }}" alt="Ensayos de Despulpado Solar en Parcela" class="w-full max-h-80 object-cover rounded-2xl shadow-lg">
-                    <p class="text-xs text-[#9ab0a4] leading-relaxed pt-2">
+                    <p class="text-xs text-[#9ab0a4] leading-relaxed pt-2 text-justify">
                         Pruebas en campo con caficultores cargando cerezas maduras directamente a la tolva con alimentación fotovoltaica pasiva.
                     </p>
                 </div>
@@ -320,14 +320,14 @@
                     <span class="text-xs font-bold uppercase tracking-wider text-[#d4a737] block">Diseño Biomecánico Adaptado</span>
                     <h3 class="text-xl font-bold text-white">Mochila Despulpadora Solar "Yawi-Pulp"</h3>
                     <img src="{{ asset('images/extracted_pptx/image7.jpeg') }}" alt="Concepto Yawi-Pulp Mochila Solar" class="w-full max-h-80 object-cover rounded-2xl shadow-lg">
-                    <p class="text-xs text-[#9ab0a4] leading-relaxed pt-2">
+                    <p class="text-xs text-[#9ab0a4] leading-relaxed pt-2 text-justify">
                         Arnés ergonómico inspirado en la tradición Awajún-Wampís con kit solar híbrido y separador de flujo por gravedad sin agua.
                     </p>
                 </div>
             </div>
 
             <!-- Ficha Técnica con los 4 Módulos de Ingeniería -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 text-justify">
                 
                 <div class="p-5 rounded-2xl bg-[#163524]/90 border border-[#295a42]/60 flex items-start gap-4">
                     <div class="w-10 h-10 rounded-xl bg-[#2e170e] text-[#d4a737] flex-shrink-0 flex items-center justify-center font-bold text-sm border border-[#593223]">
@@ -335,7 +335,7 @@
                     </div>
                     <div class="space-y-1">
                         <h4 class="font-display font-bold text-white text-sm">Tolva y Cribado Primario Superior (Inox 304)</h4>
-                        <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                        <p class="text-xs text-[#9ab0a4] leading-relaxed ">
                             Embudo cónico de aleación ligera y acero inoxidable con rejilla selectora desmontable para filtrar ramas, hojas e impurezas de campo antes del ingreso al rotor.
                         </p>
                     </div>
@@ -386,7 +386,7 @@
     <!-- 4. EL MODELO BIOECONÓMICO: GRA - CA - MU                                  -->
     <!-- ========================================================================= -->
     <section id="modelo-gracamu" class="py-20 bg-[#0c2016] border-t border-[#295a42]/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-justify">
             
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
                 <span class="text-xs font-bold uppercase tracking-widest text-[#d4a737]">Aprovechamiento Integral de Biomasa</span>
@@ -452,7 +452,7 @@
                         </li>
                         <li class="flex items-start gap-1.5">
                             <span class="text-[#4ade80] font-bold">✓</span>
-                            <span><strong>Cosmética y Biol:</strong> Alta concentración de ácido clorogénico y biofertilizante probiótico.</span>
+                            <span><strong>Cosmética y Biofertilizantes:</strong> Alta concentración de ácido clorogénico y biofertilizante probiótico.</span>
                         </li>
                     </ul>
                 </div>
@@ -497,7 +497,7 @@
                     </h2>
 
                     <blockquote class="bg-[#12291d]/90 border-l-4 border-[#d4a737] border-y border-r border-[#295a42]/50 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xl">
-                        <p class="font-serif-title italic text-base sm:text-lg text-[#eef7f2] leading-relaxed">
+                        <p class="font-serif-title italic text-base sm:text-lg text-[#eef7f2] leading-relaxed text-justify">
                             "El café no es solo un grano para exportar, es un fruto integral cuyo verdadero valor emerge al proteger la tierra y transformar lo que antes contaminaba: con tecnología limpia, energía solar y desinfección responsable en origen, el Proyecto GRACAMU IKAM rescata la cáscara y el mucílago para dignificar el trabajo de nuestras familias productoras en Amazonas, demostrando que una caficultura regenerativa, libre de residuos y de alto impacto ambiental no solo es posible en nuestra selva, sino que se alza como un modelo sostenible y replicable para todo el Perú y el mundo."
                         </p>
                         <div class="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between text-xs text-[#9ab0a4] gap-1">
@@ -540,7 +540,7 @@
                                 Dirección General
                             </span>
                             <h3 class="text-lg sm:text-xl font-bold text-white">Dr. Mario Y. Torrejón Arellanos</h3>
-                            <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                            <p class="text-xs text-[#9ab0a4] leading-relaxed text-justify">
                                 Director General del IES PÚBLICO de Excelencia Perú Japón. Liderazgo institucional, respaldo a la investigación tecnológica y articulación con entidades regionales y nacionales.
                             </p>
                             <div class="p-2 rounded-lg bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#d4a737]">
@@ -557,7 +557,7 @@
                                 Dirección de Incubadora • PJ StartUp
                             </span>
                             <h3 class="text-lg sm:text-xl font-bold text-white">Mg. Jose Magno Alejos Salazar</h3>
-                            <p class="text-xs text-[#9ab0a4] leading-relaxed">
+                            <p class="text-xs text-[#9ab0a4] leading-relaxed text-justify">
                                 Director de la Incubadora Perú Japón StartUp. Conducción y mentoría en modelos de negocio, formulación de proyectos de innovación y escalamiento comercial en bioeconomía.
                             </p>
                             <div class="p-2 rounded-lg bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#d4a737]">
@@ -592,7 +592,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Asesor Agroindustrial</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Línea de bioeconomía circular, aprovechamiento de polifenoles de cáscara y mucílago y cumplimiento de normativas EUDR.
                         </div>
@@ -607,7 +607,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Asesor de Investigación</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Metodología científica, formulación del problema regional y rigurosidad en los indicadores de impacto ambiental.
                         </div>
@@ -622,7 +622,7 @@
                                 <p class="text-[11px] text-[#d4a737] font-semibold">Mentor de Innovación / FabLab</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Modelado digital 3D del prototipo, fabricación digital en FabLab, mentoría en modelo de negocio e incubación Start Up.
                         </div>
@@ -637,7 +637,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Asesor Técnico y Mecánica</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Cálculo de fuerzas mecánicas, calibración del tambor micrométrico (4 a 8 mm) y selección de aleaciones en acero inox 304.
                         </div>
@@ -669,7 +669,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Tecnología y Sistemas</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Integración del módulo híbrido solar, controladores electrónicos de carga, batería LiFePO4 y ensamble motriz.
                         </div>
@@ -684,7 +684,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Diseño y Validación</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Pruebas operativas en parcelas de pendiente pronunciada, calibración de campo y diseño biomecánico del arnés.
                         </div>
@@ -699,7 +699,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Bioeconomía y Difusión</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Protocolos de secado limpio de cáscara, extracción no diluida de mucílago y articulación con caficultores locales.
                         </div>
@@ -714,7 +714,7 @@
                                 <p class="text-[11px] text-[#4ade80] font-semibold">Investigación y Campo</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Medición de índices de grano quebrado (cero daño), toma de datos agroclimáticos y ensayos mecánicos en origen.
                         </div>
@@ -729,7 +729,7 @@
                                 <p class="text-[11px] text-[#d4a737] font-semibold">Arquitectura Web y Sistemas</p>
                             </div>
                         </div>
-                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-left text-[#9ab0a4] leading-relaxed">
+                        <div class="p-2.5 rounded-xl bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#9ab0a4] leading-relaxed text-justify">
                             <strong class="text-white block mb-0.5">Aporte en el Proyecto:</strong>
                             Diseño de la plataforma web oficial, desarrollo de la experiencia interactiva, arquitectura del sistema de encuestas y vinculación tecnológica con caficultores.
                         </div>
@@ -759,7 +759,7 @@
                         <h3 class="text-xl sm:text-2xl font-display font-bold text-white">
                             Diagnóstico Cafetalero en Amazonas 2026–2030
                         </h3>
-                        <p class="text-xs sm:text-sm text-[#c4b3a9] max-w-xl leading-relaxed">
+                        <p class="text-xs sm:text-sm text-[#c4b3a9] max-w-xl leading-relaxed text-justify">
                             ¿Eres caficultor, dirigente de cooperativa o productor en Utcubamba, Rodríguez de Mendoza, Bagua, Bongará o Luya? Ayúdanos a dimensionar el impacto respondiendo el formulario oficial.
                         </p>
                     </div>
@@ -777,7 +777,7 @@
                 <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
                     Canal Directo de Comunicación
                 </h2>
-                <p class="text-sm text-[#b2c7bc] leading-relaxed max-w-2xl mx-auto">
+                <p class="text-sm text-[#b2c7bc] leading-relaxed max-w-2xl mx-auto text-justify">
                     Comunícate directamente con el equipo de GRACAMU IKAM y la Incubadora Perú Japón StartUp para coordinar pruebas de campo, convenios con cooperativas, compra/venta de subproductos o consultas técnicas.
                 </p>
             </div>

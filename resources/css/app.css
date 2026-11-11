@@ -55,11 +55,11 @@
     --color-gold-300: #ebd288;
 
     /* Tonos Selva Amazónica (+10% luminosidad verde vivo) */
-    --color-jungle-950: #0c2016;
-    --color-jungle-900: #12291d;
-    --color-jungle-850: #183626;
+    --color-jungle-950: #163828;
+    --color-jungle-900: #1a412e;
+    --color-jungle-850: #214e38;
     --color-jungle-800: #1f4331;
-    --color-jungle-700: #295a42;
+    --color-jungle-700: #3b7f5d;
     --color-jungle-600: #367556;
     --color-jungle-500: #469670;
 }
@@ -74,11 +74,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #0c2016;
+    background: #163828;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #295a42;
+    background: #3b7f5d;
     border: 1px solid #593223;
     border-radius: 4px;
 }

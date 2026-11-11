@@ -24,15 +24,15 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body class="bg-[#0c2016] text-[#eef7f2] font-body antialiased selection:bg-[#d4a737] selection:text-[#0c2016] min-h-screen flex flex-col justify-between">
+<body class="bg-[#163828] text-[#eef7f2] font-body antialiased selection:bg-[#d4a737] selection:text-[#163828] min-h-screen flex flex-col justify-between">
 
     <!-- NAVBAR NAVEGACIÓN STICKY -->
-    <header class="sticky top-0 z-50 backdrop-blur-md bg-[#132b1e]/92 border-b border-[#295a42]/60 transition-all duration-300">
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-[#1e4632]/92 border-b border-[#3b7f5d]/60 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <!-- Logotipo e Identidad -->
                 <a href="#inicio" class="flex items-center gap-3.5 group">
-                    <img src="{{ asset('images/brand/logo-gracamu.png') }}" alt="Logo GRACAMU IKAM" class="h-12 w-12 object-contain rounded-full bg-[#183626] p-1 border border-[#d4a737]/40 shadow-md group-hover:scale-105 transition-transform duration-300">
+                    <img src="{{ asset('images/brand/logo-gracamu.png') }}" alt="Logo GRACAMU IKAM" class="h-12 w-12 object-contain rounded-full bg-[#214e38] p-1 border border-[#d4a737]/40 shadow-md group-hover:scale-105 transition-transform duration-300">
                     <div class="flex flex-col">
                         <span class="font-display font-bold text-xl tracking-wider text-white group-hover:text-[#d4a737] transition-colors">
                             GRACAMU <span class="text-[#d4a737] text-sm tracking-widest font-normal">IKAM</span>
@@ -57,7 +57,7 @@
 
                 <!-- CTA Botón Contacto y Enlace Institucional -->
                 <div class="hidden sm:flex items-center gap-3">
-                    <a href="https://idexperujapon.edu.pe/" target="_blank" class="inline-flex items-center gap-1.5 text-xs text-[#9ab0a4] hover:text-white px-3 py-2 rounded-lg border border-white/10 hover:border-white/30 transition-all">
+                    <a href="https://idexperujapon.edu.pe/" target="_blank" class="inline-flex items-center gap-1.5 text-xs text-[#d6ece0] hover:text-white px-3 py-2 rounded-lg border border-white/10 hover:border-white/30 transition-all">
                         <svg class="w-3.5 h-3.5 text-[#d4a737]" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
                         Portal IDEX
                     </a>
@@ -77,7 +77,7 @@
         </div>
 
         <!-- Menú Móvil Desplegable -->
-        <div id="mobileMenu" class="hidden md:hidden bg-[#132b1e] border-b border-[#295a42]/60 px-4 pt-3 pb-6 space-y-3">
+        <div id="mobileMenu" class="hidden md:hidden bg-[#1e4632] border-b border-[#3b7f5d]/60 px-4 pt-3 pb-6 space-y-3">
             <a href="#inicio" class="block py-2 text-sm text-[#e0ece5] hover:text-[#d4a737] border-b border-white/5">Inicio</a>
             <a href="#problema" class="block py-2 text-sm text-[#e0ece5] hover:text-[#d4a737] border-b border-white/5">El Problema de Aguas Mieles</a>
             <a href="#solucion" class="block py-2 text-sm text-[#e0ece5] hover:text-[#d4a737] border-b border-white/5">Prototipo Autónomo</a>
@@ -100,13 +100,13 @@
     </main>
 
     <!-- FOOTER INSTITUCIONAL -->
-    <footer class="bg-[#0a1a10] border-t border-[#295a42]/60 pt-16 pb-10 text-sm text-[#a3b8ad]">
+    <footer class="bg-[#122b1e] border-t border-[#3b7f5d]/60 pt-16 pb-10 text-sm text-[#a3b8ad]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
                 <!-- Columna 1: Marca & Lema -->
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
-                        <img src="{{ asset('images/brand/logo-gracamu.png') }}" alt="Logo GRACAMU" class="h-10 w-10 object-contain rounded-full bg-[#183626] p-1 border border-[#d4a737]/30">
+                        <img src="{{ asset('images/brand/logo-gracamu.png') }}" alt="Logo GRACAMU" class="h-10 w-10 object-contain rounded-full bg-[#214e38] p-1 border border-[#d4a737]/30">
                         <span class="font-display font-bold text-lg text-white">GRACAMU <span class="text-[#d4a737] text-xs">IKAM</span></span>
                     </div>
                     <p class="text-xs text-[#a3b8ad] leading-relaxed">
@@ -120,7 +120,7 @@
 
                 <!-- Columna 2: Enlaces Rápidos -->
                 <div>
-                    <h4 class="text-white font-semibold text-xs uppercase tracking-wider mb-4 border-b border-[#295a42]/60 pb-2">Secciones del Proyecto</h4>
+                    <h4 class="text-white font-semibold text-xs uppercase tracking-wider mb-4 border-b border-[#3b7f5d]/60 pb-2">Secciones del Proyecto</h4>
                     <ul class="space-y-2 text-xs">
                         <li><a href="#inicio" class="hover:text-[#d4a737] transition-colors">Inicio</a></li>
                         <li><a href="#problema" class="hover:text-[#d4a737] transition-colors">Problemática de Aguas Mieles en Amazonas</a></li>
@@ -134,11 +134,11 @@
 
                 <!-- Columna 3: Retorno al Instituto Central -->
                 <div class="space-y-4">
-                    <h4 class="text-white font-semibold text-xs uppercase tracking-wider mb-4 border-b border-[#295a42]/60 pb-2">Instituto de Excelencia</h4>
+                    <h4 class="text-white font-semibold text-xs uppercase tracking-wider mb-4 border-b border-[#3b7f5d]/60 pb-2">Instituto de Excelencia</h4>
                     <p class="text-xs text-[#a3b8ad] leading-relaxed">
                         Proyecto desarrollado con el respaldo académico y tecnológico de los programas de estudios e incubación del IDEX Perú Japón en Chachapoyas.
                     </p>
-                    <a href="https://idexperujapon.edu.pe/" target="_blank" class="inline-flex items-center gap-2 bg-[#183626] hover:bg-[#1f4331] text-[#d4a737] border border-[#d4a737]/40 px-4 py-2.5 rounded-xl text-xs font-semibold transition-all">
+                    <a href="https://idexperujapon.edu.pe/" target="_blank" class="inline-flex items-center gap-2 bg-[#214e38] hover:bg-[#1f4331] text-[#d4a737] border border-[#d4a737]/40 px-4 py-2.5 rounded-xl text-xs font-semibold transition-all">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
                         <span>Volver al Portal Principal del Instituto</span>
                     </a>
@@ -146,7 +146,7 @@
             </div>
 
             <!-- Créditos finales -->
-            <div class="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#6d8276] gap-4">
+            <div class="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#a6c7b7] gap-4">
                 <p>© {{ date('Y') }} Proyecto GRACAMU IKAM • IESTP de Excelencia Perú Japón. Todos los derechos reservados.</p>
                 <p class="text-[#8fa79b]">
                     Chachapoyas, Amazonas — Perú
